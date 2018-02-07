@@ -93,3 +93,20 @@ Replace with:
 alias net-pf-10 off
 alias ipv6 off
 Save and close the file.
+
+For Debian-based systems:
+sudo apt install clamav
+
+For RHEL/CentOS systems:
+sudo yum install epel-release
+sudo yum install clamav
+
+For Fedora-based systems:
+sudo dnf install clamav
+
+For SUSE-based systems:
+sudo zypper in clamav
+
+If you’re running a Debian-based desktop, you can install ClamTK (the GUI) with the command:
+sudo apt install clamtk
+There are also third-party tools that can be added (to include support for the likes of MTA, POP3, Web & FTP, Filesys, MUA, Bindings, and more).
